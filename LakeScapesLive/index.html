@@ -1,0 +1,123 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>LakesScapes Home Improvement</title>
+    <link href="Styles/common.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div align="center" >
+        <br/>
+        <table class="page-table" cellspacing="0" cellpadding="0" border="0">
+            <tr>
+                <td align="center">
+
+                    <div class="header">
+                        <div>
+                            <br/>
+                            <img class="imgLogo" src="Images/LakeScapes_Logo.png" alt="Logo">
+                        </div>
+                        <br/>
+                        <div class="header-text">
+                            Landscape, Lawn Care, Tile Installation & Home Improvement
+                        </div>
+                        <br/>
+                        <div class="nav-div">
+                            <ul id="nav-menu" >
+                                <li class="active"><a href="index.html">Home</a></li>
+                                <li><a href="services.html">Services</a></li>
+                                <li><a href="contact.html">Contact Me</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="photo-gallery">
+                        <!--<div class="photo-header">
+                            Photo Gallery
+                        </div>
+                        <br/>-->
+                        <div class="photo-container">
+                                <img class="mySlides" src="Images/Pic1.jpg" style="width:100%">
+                                <img class="mySlides" src="Images/Pic2.jpg" style="width:100%">
+                                <img class="mySlides" src="Images/Pic3.jpg" style="width:100%">
+                                <img class="mySlides" src="Images/Pic4.jpg" style="width:100%">
+                                <img class="mySlides" src="Images/Pic5.jpg" style="width:100%">
+                                <img class="mySlides" src="Images/Pic6.jpg" style="width:100%">
+                                <img class="mySlides" src="Images/Pic7.jpg" style="width:100%">
+                                <img class="mySlides" src="Images/Pic8.jpg" style="width:100%">
+                                <img class="mySlides" src="Images/Pic9.jpg" style="width:100%">
+                        </div>
+                    </div>
+
+                    
+
+                    <div class="page-info-main">
+
+                        <br/>
+                        <br/>
+
+                        <div width="80%" >
+                            
+                            <b>LakeScapes Home Improvement,</b> now located in Alexandria, MN is here to provide you 
+                            with all of your outdoor and indoor needs. Whether you own a lake property, are out in the 
+                            country, or in the heart of town, LakeScapes is here to help. This includes large and small 
+                            scale landscape projects, tree care, tile installation, bathroom remodels, and more. 
+                        </div>
+
+                        <br/>
+
+                        <div width="80%">
+ 
+                            Nate Westgard, owner and operator has been in the industry for 15 years. He started his work in 
+                            Minnetonka, MN and has recently relocated to Alexandria. He does quality, professional 
+                            work to fit your unique needs and would love to help you with your next project!
+                            <br><br>
+                            Contact by email <b><a style="color:black;" href="mailto:lakescapesmn@gmail.com">lakescapesmn@gmail.com</a></b>
+                            or phone <b>(612) 834-1987</b> to get a free estimate.
+
+                        </div>
+
+                        <br/>
+                        <br/>
+
+                    </div>
+
+                    <div class="footer">
+                        <a style="padding-bottom:5px;" target="_blank" title="Follow Me on Facebook" href="https://facebook.com/LakeScapes-Home-Improvement-LLC-1849602498419571/">
+                        <img alt="Follow Me on Facebook" src="https://c866088.ssl.cf3.rackcdn.com/assets/facebook40x40.png" border=0></a></br>
+
+                        LakeScapes Home Improvement<br/>Alexandria, MN</br>
+                        <a style="color:white;" href="mailto:lakescapesmn@gmail.com">lakescapesmn@gmail.com</a>  |  
+                        (612) 834-1987</br>
+                        Website Design By: Mike Nellermoe
+                    </div>
+
+                    
+
+                </td>
+            </tr>
+        </table>
+        <br/>
+    </div>
+
+<script type="text/javascript" language="javascript">
+
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 3000); // Change image every 3 seconds
+    }
+
+</script>
+       
+</body>
+</html>
