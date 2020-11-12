@@ -1,0 +1,37 @@
+body {
+    padding-top: 6rem;
+    color: #5a5a5a;
+  }
+
+.image{
+    max-height:100%;
+    max-width:100%;
+}
+
+.divider {
+    margin: 3rem 0;
+  }
+
+.carouselImg {
+    max-height:100%;
+    max-width:100%;
+}
+
+a {
+    color: black;
+}
+
+.center {
+    text-align:center;
+}
+
+footer{
+    color: white;   
+    padding-top:20px;
+    padding-bottom:20px;
+    margin-top: 50px;
+}
+
+footer a {
+    color: lightgray;
+}
