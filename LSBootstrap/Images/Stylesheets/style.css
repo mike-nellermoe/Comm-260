@@ -1,0 +1,38 @@
+body {
+    padding-top: 6rem;
+    color: #5a5a5a;
+  }
+
+.image{
+    max-height:100%;
+    max-width:100%;
+}
+
+.divider {
+    margin: 3rem 0;
+  }
+
+a {
+    color: black;
+}
+
+.center {
+    text-align:center;
+}
+
+footer{
+    color: white;   
+    padding-top:20px;
+    padding-bottom:20px;
+    margin-top: 50px;
+}
+
+footer a {
+    color: lightgray;
+}
+
+hr {
+    width: 80%;
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+}
