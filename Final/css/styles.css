@@ -41,6 +41,7 @@ li a{
     padding: 10px;
     text-decoration: none;
     color: gray;
+    font-weight: bold;
 }
 .active {
     border-bottom: solid 4px red;
