@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Slabo+27px&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+html {
+    font-size: 16px; 
+    line-height: 1.4rem;
+    background-image: url('img/bg.jpg');
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+img {
+	width: 100%;
+    max-width: 100%;
+}
+
+header h1 {
+    padding-left: 50px;
+    color: gray;
+}
+
+h1, h2 {
+    font-family: 'Slabo 27px', serif !important;
+}
+
+
+
+ul{
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: gray;
+}
+.active {
+    border-bottom: solid 4px red;
+}
+li a:hover {
+   color: red;
+}
+
+
+.container {
+    padding:  5px 30px 5px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container > div {
+    margin: 10px;
+    padding: 10px;
+}
+
+.two-thirds {
+    width:66.6%;
+}
+.one-third {
+    width: 33.3%;
+}
+.center {
+    text-align: center;
+}
+
+p {
+    font-size: 14px;
+}
+blockquote {
+    font-size: 20px;
+}
+
+
+.hr {
+    color: red;
+}
+
+footer {
+    margin: 4rem 0rem;
+    padding: 2rem 0rem;
+    border-top: 1px solid #ccc;
+    font-size: .8rem;
+    padding-left: 50px;
+}
