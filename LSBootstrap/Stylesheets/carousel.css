@@ -11,11 +11,6 @@
   z-index: 10;
 }
 
-/* Declare heights because of positioning of img element */
-  /* .carousel-item {
-    height: 32rem;
-}   */
-
 .carouselImg {
   max-height:100%;
   max-width:100%;
@@ -30,14 +25,10 @@
 }
 
 
-.carousel-control-next {
-  color: black !important;
-  background-color: gray;
+.carousel-control-next, .carousel-control-prev {
+  filter: invert(100%);
 }
-.carousel-control-prev {
-  color: black !important;
-  background-color: gray;
-}
+
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -49,14 +40,5 @@
     font-size: 1.25rem;
     line-height: 1.4;
   }
-
-  .featurette-heading {
-    font-size: 50px;
-  }
 }
 
-@media (min-width: 62em) {
-  .featurette-heading {
-    margin-top: 7rem;
-  }
-}

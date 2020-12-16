@@ -1,7 +1,14 @@
 body {
     padding-top: 6rem;
     color: #5a5a5a;
-  }
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
+}
 
 .image{
     max-height:100%;
